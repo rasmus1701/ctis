@@ -27,6 +27,7 @@ w2_vars = sympy.var(
 w4_vars = sympy.var(
     ['w4_' + str(j) + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 diff_vars = datacube_vars + w1_vars + w2_vars + w3_vars + w4_vars
+<<<<<<< 613b8a5ef7ad719adba3586d1e213e4f16997d33
 
 #print diff_vars
 print "datacube vars: ", datacube_vars
