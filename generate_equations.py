@@ -14,10 +14,18 @@ except Exception as e:
     sys.exit(-1)
 
 # declare all diffraction variables (l1_11, l1_12, ..., w1_11, w1_12, ...):
-layers = ['l' + str(i) + '_' for i in xrange(1, M+1)] # ['l1_', 'l2_', ..., 'lM_']
+layers = ['l' + str(i) + '_' for i in xrange(1, M+1)]
+# layers = ['l1_', 'l2_', ..., 'lM_']
 
-datacube_vars = sympy.var(
-    [l + str(i) + str(j) for l in layers for i in xrange(1, N+1) for j in xrange(1, N+1)])
+layer_vars = {i: sympy.var(
+    [layers[i] + str(j) + str(k) for j in xrange(1, N+1) for k in xrange(1, N+1)]
+    ) for i in xrange(M)}
+# layer_vars = {0: [l1_11, l1_12, ..., l1_55],
+#               1: [l2_11, l2_12, ..., l2_55],
+#               ...,
+#               M-1: [l{M-1}_11, l{M-1}_12, ..., l{M-1}_55]
+#              }
+
 w1_vars = sympy.var(
     ['w1_' + str(i) + str(j) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 w3_vars = sympy.var(
@@ -26,24 +34,37 @@ w2_vars = sympy.var(
     ['w2_' + str(j) + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 w4_vars = sympy.var(
     ['w4_' + str(j) + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
-diff_vars = datacube_vars + w1_vars + w2_vars + w3_vars + w4_vars
-<<<<<<< 613b8a5ef7ad719adba3586d1e213e4f16997d33
+diff_vars = w1_vars + w2_vars + w3_vars + w4_vars
 
-#print diff_vars
-print "datacube vars: ", datacube_vars
-print "w1 vars: ", w1_vars
-
-# generate all equations using diffraction variables:
+for k,v in layer_vars.iteritems():
+    diff_vars += v
+#    print "layer %d: %s" % (k, v)
 
 # generate equations from w1:
+w_stride = N+M-1
+datacube_stride = N
+eq_w1 = []
 
-#e1 = w1_vars[0] - datacube_vars[0]
-#e2 = w1_vars[1] + w1_vars[1+0]
-#e3 = w1_vars[2]
-#e3 = w1_vars[2] 
+row = 0
+for i in xrange(N):
+    start_layer = 0
+    end_layer = 1
+    num_eq = 0
+    col = 0
+    for j in xrange(N+M-1):
+        # find correct vars from arrays for equation
+        eq = w1_vars[i * w_stride + j]
+        for k in xrange(start_layer, end_layer):
+            eq = eq - layer_vars[k][row * N + col - k]
+        col += 1
+        eq_w1.append(eq)
+        # adjust start and end layer
+        num_eq += 1
+        if num_eq >= N:
+                start_layer += 1
+        if end_layer < M:
+            end_layer += 1
+    row += 1
 
-#for i in xrange(1, N+1):
-#for j in xrange(1, N+M):
-  #      #        print i,j
-   #     pass
-#eq1_1 =
+for index,eq in enumerate(eq_w1):
+    print index, eq
