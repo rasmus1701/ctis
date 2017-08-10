@@ -38,7 +38,7 @@ diff_vars = w1_vars + w2_vars + w3_vars + w4_vars
 
 for k,v in layer_vars.iteritems():
     diff_vars += v
-#    print "layer %d: %s" % (k, v)
+    print "layer %d: %s" % (k, v)
 
 w_stride = N+M-1
 datacube_stride = N
@@ -99,4 +99,33 @@ for i in xrange(N):
 
 print "\nEquations for W3:"
 for index,eq in enumerate(eq_w3):
+    print index, eq
+
+# generate equations from w4:
+col = 0
+for i in xrange(N):
+    start_layer = 0
+    end_layer = 1
+    num_eq = 0
+    row = 0
+    for j in xrange(N+M-1):
+        # find correct vars from arrays for equation
+        eq = w4_vars[i * w_stride + j]
+        for k in xrange(start_layer, end_layer):
+            # layers are inverted in W2 compared to W4
+            #layer = abs(k - (M - 1))
+            layer = k
+            eq = eq - layer_vars[layer][(row -k) * N + col]
+        row += 1
+        eq_w4.append(eq)
+        # adjust start and end layer
+        num_eq += 1
+        if num_eq >= N:
+            start_layer += 1
+        if end_layer < M:
+            end_layer += 1
+    col += 1
+
+print "\nEquations for W4:"
+for index,eq in enumerate(eq_w4):
     print index, eq
