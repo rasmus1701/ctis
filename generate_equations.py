@@ -1,5 +1,6 @@
 import sys
 import sympy
+import numpy
 
 if len(sys.argv) != 3:
     print "Please supply wanted system dimensions NxNxM (NxN: matrix dim, M: number of layers)"
@@ -26,6 +27,10 @@ layer_vars = {i: sympy.var(
 #               M-1: [l{M-1}_11, l{M-1}_12, ..., l{M-1}_55]
 #              }
 
+diff_vars = []
+for i in xrange(M):
+    diff_vars += layer_vars[i]
+
 w1_vars = sympy.var(
     ['w1_' + str(i) + str(j) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 w3_vars = sympy.var(
@@ -34,11 +39,7 @@ w2_vars = sympy.var(
     ['w2_' + str(j) + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 w4_vars = sympy.var(
     ['w4_' + str(j) + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
-diff_vars = w1_vars + w2_vars + w3_vars + w4_vars
-
-for k,v in layer_vars.iteritems():
-    diff_vars += v
-#    print "layer %d: %s" % (k, v)
+diff_vars += w1_vars + w2_vars + w3_vars + w4_vars
 
 w_stride = N+M-1
 datacube_stride = N
@@ -143,8 +144,21 @@ for i in xrange(N):
 
 equations = {"W1": eq_w1, "W2": eq_w2, "W3": eq_w3, "W4": eq_w4}
 
-for key,equation in equations.iteritems():
-    print "\nEquations for %s:" % key
-    for index,eq in enumerate(equation):
-        print index, eq
+#for key,equation in equations.iteritems():
+#    print "\nEquations for %s:" % key
+#    for index,eq in enumerate(equation):
+#        print index, eq
 
+
+print "Preparing linear equations..."
+lin_equations = numpy.array([eq_w1, eq_w2, eq_w3, eq_w4]).flatten().tolist()
+for eq in lin_equations:
+    print eq
+
+print "Solving linear equation system..."
+solutions = sympy.linsolve(lin_equations, diff_vars)
+
+print "Solutions: "
+for solution in solutions:
+    for index,member in enumerate(solution):
+        print diff_vars[index], " = ", member

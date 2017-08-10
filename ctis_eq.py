@@ -8,8 +8,13 @@ if sympy_version < 1.1:
     print "You'll need sympy version 1.1 or better for this"
     sys.exit(-1)
 
+print "Preparing linear equations..."
+for eq in equations:
+    print eq
+
 solutions = sympy.linsolve(equations, diff_vars)
 
+print "Solutions: "
 for solution in solutions:
     for index,member in enumerate(solution):
         print diff_vars[index], " = ", member
