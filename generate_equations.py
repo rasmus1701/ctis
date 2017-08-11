@@ -19,7 +19,7 @@ layers = ['l' + str(i) + '_' for i in xrange(1, M+1)]
 # layers = ['l1_', 'l2_', ..., 'lM_']
 
 layer_vars = {i: sympy.var(
-    [layers[i] + str(j) + str(k) for j in xrange(1, N+1) for k in xrange(1, N+1)]
+    [layers[i] + str(j) + "_" + str(k) for j in xrange(1, N+1) for k in xrange(1, N+1)]
     ) for i in xrange(M)}
 # layer_vars = {0: [l1_11, l1_12, ..., l1_55],
 #               1: [l2_11, l2_12, ..., l2_55],
@@ -32,13 +32,13 @@ for i in xrange(M):
     diff_vars += layer_vars[i]
 
 w1_vars = sympy.var(
-    ['w1_' + str(i) + str(j) for i in xrange(1, N+1) for j in xrange(1, N+M)])
+    ['w1_' + str(i) + "_" + str(j) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 w3_vars = sympy.var(
-    ['w3_' + str(i) + str(j) for i in xrange(1, N+1) for j in xrange(1, N+M)])
+    ['w3_' + str(i) + "_" + str(j) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 w2_vars = sympy.var(
-    ['w2_' + str(j) + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
+    ['w2_' + str(j) + "_" + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 w4_vars = sympy.var(
-    ['w4_' + str(j) + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
+    ['w4_' + str(j) + "_" + str(i) for i in xrange(1, N+1) for j in xrange(1, N+M)])
 diff_vars += w1_vars + w2_vars + w3_vars + w4_vars
 
 w_stride = N+M-1
@@ -152,8 +152,8 @@ equations = {"W1": eq_w1, "W2": eq_w2, "W3": eq_w3, "W4": eq_w4}
 
 print "Preparing linear equations..."
 lin_equations = numpy.array([eq_w1, eq_w2, eq_w3, eq_w4]).flatten().tolist()
-for eq in lin_equations:
-    print eq
+#for eq in lin_equations:
+#    print eq
 
 print "Solving linear equation system..."
 solutions = sympy.linsolve(lin_equations, diff_vars)
@@ -162,3 +162,5 @@ print "Solutions: "
 for solution in solutions:
     for index,member in enumerate(solution):
         print diff_vars[index], " = ", member
+
+print "All done"
