@@ -1,0 +1,13 @@
+Der er i projektet opbygget to sæt koder til hver sit formål.
+Begge to er sat op således, at de kan køres uden at skulle indtaste/ændre
+på værdier.
+
+Simulering - Hoved-script ligger i "Simulering\CTIS_Simulator_V4".
+Den bruges til at opbygge datakube, simuler et diffraktionsmønster og
+derefter køre EM-algoritmen til at estimerer og vise den rekonstruerede 
+datakube.
+
+
+Databehandling af fysisk system - Hoved-script ligger i "Databehandling\CTIS_Processor_V3".
+Den bruges til at estimer datakuben ud fra diffraktionsmønsteret i det fysiske system, 
+som indlæses i scriptet. Det er også heri alle kalibreringsmålingerne tastes ind.

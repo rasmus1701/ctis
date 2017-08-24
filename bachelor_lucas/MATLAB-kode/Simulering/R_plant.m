@@ -1,0 +1,4 @@
+function [R] = R_plant(lambda)
+% Spektral fordeling for planter.
+R = 39999999999997681664*lambda^3 - (8283428571428063*lambda^2)/128 + (4642974690742557*lambda)/134217728 - 6757812083712795/1125899906842624;
+end

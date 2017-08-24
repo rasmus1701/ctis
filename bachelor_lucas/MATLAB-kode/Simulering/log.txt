@@ -1,0 +1,1065 @@
+{Undefined function or variable 'SimulateSystemV3'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 56)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',56,0)">line 56</a>)
+Image0 = SimulateSystemV3( Cube, N_cam, lambda_l,lambda_u,f,a,h_A,h_cam,boolCamRespons,boolLightSource);
+} 
+CTIS_Simulator_V4
+[Warning: File not found or permission denied] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 1)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',1,0)">line 1</a>)] 
+
+14:1:52.714  >> Start simulation for wavelength 1/400.
+14:1:52.73   >> Start simulation for wavelength 2/400.
+14:1:52.73   >> Start simulation for wavelength 3/400.
+14:1:52.73   >> Start simulation for wavelength 4/400.
+14:1:52.73   >> Start simulation for wavelength 5/400.
+14:1:52.73   >> Start simulation for wavelength 6/400.
+14:1:52.73   >> Start simulation for wavelength 7/400.
+14:1:52.73   >> Start simulation for wavelength 8/400.
+14:1:52.73   >> Start simulation for wavelength 9/400.
+14:1:52.73   >> Start simulation for wavelength 10/400.
+14:1:52.745  >> Start simulation for wavelength 11/400.
+14:1:52.745  >> Start simulation for wavelength 12/400.
+14:1:52.745  >> Start simulation for wavelength 13/400.
+14:1:52.745  >> Start simulation for wavelength 14/400.
+14:1:52.745  >> Start simulation for wavelength 15/400.
+14:1:52.745  >> Start simulation for wavelength 16/400.
+14:1:52.745  >> Start simulation for wavelength 17/400.
+14:1:52.745  >> Start simulation for wavelength 18/400.
+14:1:52.745  >> Start simulation for wavelength 19/400.
+14:1:52.745  >> Start simulation for wavelength 20/400.
+14:1:52.745  >> Start simulation for wavelength 21/400.
+14:1:52.745  >> Start simulation for wavelength 22/400.
+14:1:52.745  >> Start simulation for wavelength 23/400.
+14:1:52.745  >> Start simulation for wavelength 24/400.
+14:1:52.745  >> Start simulation for wavelength 25/400.
+14:1:52.745  >> Start simulation for wavelength 26/400.
+14:1:52.761  >> Start simulation for wavelength 27/400.
+14:1:52.761  >> Start simulation for wavelength 28/400.
+14:1:52.761  >> Start simulation for wavelength 29/400.
+14:1:52.761  >> Start simulation for wavelength 30/400.
+14:1:52.761  >> Start simulation for wavelength 31/400.
+14:1:52.761  >> Start simulation for wavelength 32/400.
+14:1:52.761  >> Start simulation for wavelength 33/400.
+14:1:52.761  >> Start simulation for wavelength 34/400.
+14:1:52.761  >> Start simulation for wavelength 35/400.
+14:1:52.761  >> Start simulation for wavelength 36/400.
+14:1:52.761  >> Start simulation for wavelength 37/400.
+14:1:52.761  >> Start simulation for wavelength 38/400.
+14:1:52.761  >> Start simulation for wavelength 39/400.
+14:1:52.761  >> Start simulation for wavelength 40/400.
+14:1:52.761  >> Start simulation for wavelength 41/400.
+14:1:52.761  >> Start simulation for wavelength 42/400.
+14:1:52.777  >> Start simulation for wavelength 43/400.
+14:1:52.777  >> Start simulation for wavelength 44/400.
+14:1:52.777  >> Start simulation for wavelength 45/400.
+14:1:52.777  >> Start simulation for wavelength 46/400.
+14:1:52.777  >> Start simulation for wavelength 47/400.
+14:1:52.777  >> Start simulation for wavelength 48/400.
+14:1:52.777  >> Start simulation for wavelength 49/400.
+14:1:52.777  >> Start simulation for wavelength 50/400.
+14:1:52.777  >> Start simulation for wavelength 51/400.
+14:1:52.777  >> Start simulation for wavelength 52/400.
+14:1:52.777  >> Start simulation for wavelength 53/400.
+14:1:52.777  >> Start simulation for wavelength 54/400.
+14:1:52.777  >> Start simulation for wavelength 55/400.
+14:1:52.777  >> Start simulation for wavelength 56/400.
+14:1:52.777  >> Start simulation for wavelength 57/400.
+14:1:52.777  >> Start simulation for wavelength 58/400.
+14:1:52.792  >> Start simulation for wavelength 59/400.
+14:1:52.792  >> Start simulation for wavelength 60/400.
+14:1:52.792  >> Start simulation for wavelength 61/400.
+14:1:52.792  >> Start simulation for wavelength 62/400.
+14:1:52.792  >> Start simulation for wavelength 63/400.
+14:1:52.792  >> Start simulation for wavelength 64/400.
+14:1:52.792  >> Start simulation for wavelength 65/400.
+14:1:52.792  >> Start simulation for wavelength 66/400.
+14:1:52.792  >> Start simulation for wavelength 67/400.
+14:1:52.792  >> Start simulation for wavelength 68/400.
+14:1:52.792  >> Start simulation for wavelength 69/400.
+14:1:52.792  >> Start simulation for wavelength 70/400.
+14:1:52.792  >> Start simulation for wavelength 71/400.
+14:1:52.792  >> Start simulation for wavelength 72/400.
+14:1:52.792  >> Start simulation for wavelength 73/400.
+14:1:52.808  >> Start simulation for wavelength 74/400.
+14:1:52.808  >> Start simulation for wavelength 75/400.
+14:1:52.808  >> Start simulation for wavelength 76/400.
+14:1:52.808  >> Start simulation for wavelength 77/400.
+14:1:52.808  >> Start simulation for wavelength 78/400.
+14:1:52.808  >> Start simulation for wavelength 79/400.
+14:1:52.808  >> Start simulation for wavelength 80/400.
+14:1:52.808  >> Start simulation for wavelength 81/400.
+14:1:52.808  >> Start simulation for wavelength 82/400.
+14:1:52.808  >> Start simulation for wavelength 83/400.
+14:1:52.808  >> Start simulation for wavelength 84/400.
+14:1:52.808  >> Start simulation for wavelength 85/400.
+14:1:52.808  >> Start simulation for wavelength 86/400.
+14:1:52.808  >> Start simulation for wavelength 87/400.
+14:1:52.808  >> Start simulation for wavelength 88/400.
+14:1:52.808  >> Start simulation for wavelength 89/400.
+14:1:52.824  >> Start simulation for wavelength 90/400.
+14:1:52.824  >> Start simulation for wavelength 91/400.
+14:1:52.824  >> Start simulation for wavelength 92/400.
+14:1:52.824  >> Start simulation for wavelength 93/400.
+14:1:52.824  >> Start simulation for wavelength 94/400.
+14:1:52.824  >> Start simulation for wavelength 95/400.
+14:1:52.824  >> Start simulation for wavelength 96/400.
+14:1:52.824  >> Start simulation for wavelength 97/400.
+14:1:52.839  >> Start simulation for wavelength 98/400.
+14:1:52.839  >> Start simulation for wavelength 99/400.
+14:1:52.839  >> Start simulation for wavelength 100/400.
+14:1:52.839  >> Start simulation for wavelength 101/400.
+14:1:52.839  >> Start simulation for wavelength 102/400.
+14:1:52.839  >> Start simulation for wavelength 103/400.
+14:1:52.839  >> Start simulation for wavelength 104/400.
+14:1:52.839  >> Start simulation for wavelength 105/400.
+14:1:52.839  >> Start simulation for wavelength 106/400.
+14:1:52.839  >> Start simulation for wavelength 107/400.
+14:1:52.839  >> Start simulation for wavelength 108/400.
+14:1:52.839  >> Start simulation for wavelength 109/400.
+14:1:52.839  >> Start simulation for wavelength 110/400.
+14:1:52.839  >> Start simulation for wavelength 111/400.
+14:1:52.839  >> Start simulation for wavelength 112/400.
+14:1:52.839  >> Start simulation for wavelength 113/400.
+14:1:52.839  >> Start simulation for wavelength 114/400.
+14:1:52.855  >> Start simulation for wavelength 115/400.
+14:1:52.855  >> Start simulation for wavelength 116/400.
+14:1:52.855  >> Start simulation for wavelength 117/400.
+14:1:52.855  >> Start simulation for wavelength 118/400.
+14:1:52.855  >> Start simulation for wavelength 119/400.
+14:1:52.855  >> Start simulation for wavelength 120/400.
+14:1:52.855  >> Start simulation for wavelength 121/400.
+14:1:52.855  >> Start simulation for wavelength 122/400.
+14:1:52.855  >> Start simulation for wavelength 123/400.
+14:1:52.855  >> Start simulation for wavelength 124/400.
+14:1:52.855  >> Start simulation for wavelength 125/400.
+14:1:52.855  >> Start simulation for wavelength 126/400.
+14:1:52.855  >> Start simulation for wavelength 127/400.
+14:1:52.855  >> Start simulation for wavelength 128/400.
+14:1:52.855  >> Start simulation for wavelength 129/400.
+14:1:52.87   >> Start simulation for wavelength 130/400.
+14:1:52.87   >> Start simulation for wavelength 131/400.
+14:1:52.87   >> Start simulation for wavelength 132/400.
+14:1:52.87   >> Start simulation for wavelength 133/400.
+14:1:52.87   >> Start simulation for wavelength 134/400.
+14:1:52.87   >> Start simulation for wavelength 135/400.
+14:1:52.87   >> Start simulation for wavelength 136/400.
+14:1:52.87   >> Start simulation for wavelength 137/400.
+14:1:52.87   >> Start simulation for wavelength 138/400.
+14:1:52.87   >> Start simulation for wavelength 139/400.
+14:1:52.87   >> Start simulation for wavelength 140/400.
+14:1:52.87   >> Start simulation for wavelength 141/400.
+14:1:52.87   >> Start simulation for wavelength 142/400.
+14:1:52.87   >> Start simulation for wavelength 143/400.
+14:1:52.87   >> Start simulation for wavelength 144/400.
+14:1:52.87   >> Start simulation for wavelength 145/400.
+14:1:52.886  >> Start simulation for wavelength 146/400.
+14:1:52.886  >> Start simulation for wavelength 147/400.
+14:1:52.886  >> Start simulation for wavelength 148/400.
+14:1:52.886  >> Start simulation for wavelength 149/400.
+14:1:52.886  >> Start simulation for wavelength 150/400.
+14:1:52.886  >> Start simulation for wavelength 151/400.
+14:1:52.886  >> Start simulation for wavelength 152/400.
+14:1:52.886  >> Start simulation for wavelength 153/400.
+14:1:52.886  >> Start simulation for wavelength 154/400.
+14:1:52.886  >> Start simulation for wavelength 155/400.
+14:1:52.886  >> Start simulation for wavelength 156/400.
+14:1:52.886  >> Start simulation for wavelength 157/400.
+14:1:52.886  >> Start simulation for wavelength 158/400.
+14:1:52.886  >> Start simulation for wavelength 159/400.
+14:1:52.886  >> Start simulation for wavelength 160/400.
+14:1:52.902  >> Start simulation for wavelength 161/400.
+14:1:52.902  >> Start simulation for wavelength 162/400.
+14:1:52.902  >> Start simulation for wavelength 163/400.
+14:1:52.902  >> Start simulation for wavelength 164/400.
+14:1:52.902  >> Start simulation for wavelength 165/400.
+14:1:52.902  >> Start simulation for wavelength 166/400.
+14:1:52.902  >> Start simulation for wavelength 167/400.
+14:1:52.902  >> Start simulation for wavelength 168/400.
+14:1:52.902  >> Start simulation for wavelength 169/400.
+14:1:52.902  >> Start simulation for wavelength 170/400.
+14:1:52.902  >> Start simulation for wavelength 171/400.
+14:1:52.902  >> Start simulation for wavelength 172/400.
+14:1:52.902  >> Start simulation for wavelength 173/400.
+14:1:52.902  >> Start simulation for wavelength 174/400.
+14:1:52.902  >> Start simulation for wavelength 175/400.
+14:1:52.902  >> Start simulation for wavelength 176/400.
+14:1:52.902  >> Start simulation for wavelength 177/400.
+14:1:52.917  >> Start simulation for wavelength 178/400.
+14:1:52.917  >> Start simulation for wavelength 179/400.
+14:1:52.917  >> Start simulation for wavelength 180/400.
+14:1:52.917  >> Start simulation for wavelength 181/400.
+14:1:52.917  >> Start simulation for wavelength 182/400.
+14:1:52.917  >> Start simulation for wavelength 183/400.
+14:1:52.917  >> Start simulation for wavelength 184/400.
+14:1:52.917  >> Start simulation for wavelength 185/400.
+14:1:52.917  >> Start simulation for wavelength 186/400.
+14:1:52.917  >> Start simulation for wavelength 187/400.
+14:1:52.917  >> Start simulation for wavelength 188/400.
+14:1:52.917  >> Start simulation for wavelength 189/400.
+14:1:52.917  >> Start simulation for wavelength 190/400.
+14:1:52.917  >> Start simulation for wavelength 191/400.
+14:1:52.917  >> Start simulation for wavelength 192/400.
+14:1:52.917  >> Start simulation for wavelength 193/400.
+14:1:52.933  >> Start simulation for wavelength 194/400.
+14:1:52.933  >> Start simulation for wavelength 195/400.
+14:1:52.933  >> Start simulation for wavelength 196/400.
+14:1:52.933  >> Start simulation for wavelength 197/400.
+14:1:52.933  >> Start simulation for wavelength 198/400.
+14:1:52.933  >> Start simulation for wavelength 199/400.
+14:1:52.933  >> Start simulation for wavelength 200/400.
+14:1:55.261  >> Start simulation for wavelength 201/400.
+14:1:57.438  >> Start simulation for wavelength 202/400.
+14:1:57.453  >> Start simulation for wavelength 203/400.
+14:1:57.453  >> Start simulation for wavelength 204/400.
+14:1:57.453  >> Start simulation for wavelength 205/400.
+14:1:57.453  >> Start simulation for wavelength 206/400.
+14:1:57.453  >> Start simulation for wavelength 207/400.
+14:1:57.453  >> Start simulation for wavelength 208/400.
+14:1:57.453  >> Start simulation for wavelength 209/400.
+14:1:57.453  >> Start simulation for wavelength 210/400.
+14:1:57.453  >> Start simulation for wavelength 211/400.
+14:1:57.453  >> Start simulation for wavelength 212/400.
+14:1:57.453  >> Start simulation for wavelength 213/400.
+14:1:57.453  >> Start simulation for wavelength 214/400.
+14:1:57.453  >> Start simulation for wavelength 215/400.
+14:1:57.453  >> Start simulation for wavelength 216/400.
+14:1:57.453  >> Start simulation for wavelength 217/400.
+14:1:57.453  >> Start simulation for wavelength 218/400.
+14:1:57.453  >> Start simulation for wavelength 219/400.
+14:1:57.453  >> Start simulation for wavelength 220/400.
+14:1:57.453  >> Start simulation for wavelength 221/400.
+14:1:57.453  >> Start simulation for wavelength 222/400.
+14:1:57.453  >> Start simulation for wavelength 223/400.
+14:1:57.453  >> Start simulation for wavelength 224/400.
+14:1:57.453  >> Start simulation for wavelength 225/400.
+14:1:57.453  >> Start simulation for wavelength 226/400.
+14:1:57.469  >> Start simulation for wavelength 227/400.
+14:1:57.469  >> Start simulation for wavelength 228/400.
+14:1:57.469  >> Start simulation for wavelength 229/400.
+14:1:57.469  >> Start simulation for wavelength 230/400.
+14:1:57.469  >> Start simulation for wavelength 231/400.
+14:1:57.469  >> Start simulation for wavelength 232/400.
+14:1:57.469  >> Start simulation for wavelength 233/400.
+14:1:57.469  >> Start simulation for wavelength 234/400.
+14:1:57.469  >> Start simulation for wavelength 235/400.
+14:1:57.469  >> Start simulation for wavelength 236/400.
+14:1:57.469  >> Start simulation for wavelength 237/400.
+14:1:57.469  >> Start simulation for wavelength 238/400.
+14:1:57.469  >> Start simulation for wavelength 239/400.
+14:1:57.469  >> Start simulation for wavelength 240/400.
+14:1:57.469  >> Start simulation for wavelength 241/400.
+14:1:57.469  >> Start simulation for wavelength 242/400.
+14:1:57.469  >> Start simulation for wavelength 243/400.
+14:1:57.469  >> Start simulation for wavelength 244/400.
+14:1:57.469  >> Start simulation for wavelength 245/400.
+14:1:57.469  >> Start simulation for wavelength 246/400.
+14:1:57.469  >> Start simulation for wavelength 247/400.
+14:1:57.469  >> Start simulation for wavelength 248/400.
+14:1:57.469  >> Start simulation for wavelength 249/400.
+14:1:57.469  >> Start simulation for wavelength 250/400.
+14:1:57.469  >> Start simulation for wavelength 251/400.
+14:1:57.485  >> Start simulation for wavelength 252/400.
+14:1:57.485  >> Start simulation for wavelength 253/400.
+14:1:57.485  >> Start simulation for wavelength 254/400.
+14:1:57.485  >> Start simulation for wavelength 255/400.
+14:1:57.485  >> Start simulation for wavelength 256/400.
+14:1:57.485  >> Start simulation for wavelength 257/400.
+14:1:57.485  >> Start simulation for wavelength 258/400.
+14:1:57.485  >> Start simulation for wavelength 259/400.
+14:1:57.485  >> Start simulation for wavelength 260/400.
+14:1:57.485  >> Start simulation for wavelength 261/400.
+14:1:57.485  >> Start simulation for wavelength 262/400.
+14:1:57.485  >> Start simulation for wavelength 263/400.
+14:1:57.485  >> Start simulation for wavelength 264/400.
+14:1:57.485  >> Start simulation for wavelength 265/400.
+14:1:57.485  >> Start simulation for wavelength 266/400.
+14:1:57.485  >> Start simulation for wavelength 267/400.
+14:1:57.485  >> Start simulation for wavelength 268/400.
+14:1:57.485  >> Start simulation for wavelength 269/400.
+14:1:57.485  >> Start simulation for wavelength 270/400.
+14:1:57.485  >> Start simulation for wavelength 271/400.
+14:1:57.485  >> Start simulation for wavelength 272/400.
+14:1:57.485  >> Start simulation for wavelength 273/400.
+14:1:57.5    >> Start simulation for wavelength 274/400.
+14:1:57.5    >> Start simulation for wavelength 275/400.
+14:1:57.5    >> Start simulation for wavelength 276/400.
+14:1:57.5    >> Start simulation for wavelength 277/400.
+14:1:57.5    >> Start simulation for wavelength 278/400.
+14:1:57.5    >> Start simulation for wavelength 279/400.
+14:1:57.5    >> Start simulation for wavelength 280/400.
+14:1:57.5    >> Start simulation for wavelength 281/400.
+14:1:57.5    >> Start simulation for wavelength 282/400.
+14:1:57.5    >> Start simulation for wavelength 283/400.
+14:1:57.5    >> Start simulation for wavelength 284/400.
+14:1:57.5    >> Start simulation for wavelength 285/400.
+14:1:57.5    >> Start simulation for wavelength 286/400.
+14:1:57.5    >> Start simulation for wavelength 287/400.
+14:1:57.5    >> Start simulation for wavelength 288/400.
+14:1:57.5    >> Start simulation for wavelength 289/400.
+14:1:57.5    >> Start simulation for wavelength 290/400.
+14:1:57.5    >> Start simulation for wavelength 291/400.
+14:1:57.5    >> Start simulation for wavelength 292/400.
+14:1:57.5    >> Start simulation for wavelength 293/400.
+14:1:57.5    >> Start simulation for wavelength 294/400.
+14:1:57.5    >> Start simulation for wavelength 295/400.
+14:1:57.5    >> Start simulation for wavelength 296/400.
+14:1:57.5    >> Start simulation for wavelength 297/400.
+14:1:57.516  >> Start simulation for wavelength 298/400.
+14:1:57.516  >> Start simulation for wavelength 299/400.
+14:1:57.516  >> Start simulation for wavelength 300/400.
+14:1:57.516  >> Start simulation for wavelength 301/400.
+14:1:57.516  >> Start simulation for wavelength 302/400.
+14:1:57.516  >> Start simulation for wavelength 303/400.
+14:1:57.516  >> Start simulation for wavelength 304/400.
+14:1:57.516  >> Start simulation for wavelength 305/400.
+14:1:57.516  >> Start simulation for wavelength 306/400.
+14:1:57.516  >> Start simulation for wavelength 307/400.
+14:1:57.516  >> Start simulation for wavelength 308/400.
+14:1:57.516  >> Start simulation for wavelength 309/400.
+14:1:57.516  >> Start simulation for wavelength 310/400.
+14:1:57.516  >> Start simulation for wavelength 311/400.
+14:1:57.516  >> Start simulation for wavelength 312/400.
+14:1:57.516  >> Start simulation for wavelength 313/400.
+14:1:57.516  >> Start simulation for wavelength 314/400.
+14:1:57.516  >> Start simulation for wavelength 315/400.
+14:1:57.516  >> Start simulation for wavelength 316/400.
+14:1:57.516  >> Start simulation for wavelength 317/400.
+14:1:57.516  >> Start simulation for wavelength 318/400.
+14:1:57.516  >> Start simulation for wavelength 319/400.
+14:1:57.516  >> Start simulation for wavelength 320/400.
+14:1:57.532  >> Start simulation for wavelength 321/400.
+14:1:57.532  >> Start simulation for wavelength 322/400.
+14:1:57.532  >> Start simulation for wavelength 323/400.
+14:1:57.532  >> Start simulation for wavelength 324/400.
+14:1:57.532  >> Start simulation for wavelength 325/400.
+14:1:57.532  >> Start simulation for wavelength 326/400.
+14:1:57.532  >> Start simulation for wavelength 327/400.
+14:1:57.532  >> Start simulation for wavelength 328/400.
+14:1:57.532  >> Start simulation for wavelength 329/400.
+14:1:57.532  >> Start simulation for wavelength 330/400.
+14:1:57.532  >> Start simulation for wavelength 331/400.
+14:1:57.532  >> Start simulation for wavelength 332/400.
+14:1:57.532  >> Start simulation for wavelength 333/400.
+14:1:57.532  >> Start simulation for wavelength 334/400.
+14:1:57.532  >> Start simulation for wavelength 335/400.
+14:1:57.532  >> Start simulation for wavelength 336/400.
+14:1:57.532  >> Start simulation for wavelength 337/400.
+14:1:57.532  >> Start simulation for wavelength 338/400.
+14:1:57.532  >> Start simulation for wavelength 339/400.
+14:1:57.532  >> Start simulation for wavelength 340/400.
+14:1:57.532  >> Start simulation for wavelength 341/400.
+14:1:57.532  >> Start simulation for wavelength 342/400.
+14:1:57.532  >> Start simulation for wavelength 343/400.
+14:1:57.547  >> Start simulation for wavelength 344/400.
+14:1:57.547  >> Start simulation for wavelength 345/400.
+14:1:57.547  >> Start simulation for wavelength 346/400.
+14:1:57.547  >> Start simulation for wavelength 347/400.
+14:1:57.547  >> Start simulation for wavelength 348/400.
+14:1:57.547  >> Start simulation for wavelength 349/400.
+14:1:57.547  >> Start simulation for wavelength 350/400.
+14:1:57.547  >> Start simulation for wavelength 351/400.
+14:1:57.547  >> Start simulation for wavelength 352/400.
+14:1:57.547  >> Start simulation for wavelength 353/400.
+14:1:57.547  >> Start simulation for wavelength 354/400.
+14:1:57.547  >> Start simulation for wavelength 355/400.
+14:1:57.547  >> Start simulation for wavelength 356/400.
+14:1:57.547  >> Start simulation for wavelength 357/400.
+14:1:57.547  >> Start simulation for wavelength 358/400.
+14:1:57.547  >> Start simulation for wavelength 359/400.
+14:1:57.547  >> Start simulation for wavelength 360/400.
+14:1:57.547  >> Start simulation for wavelength 361/400.
+14:1:57.547  >> Start simulation for wavelength 362/400.
+14:1:57.547  >> Start simulation for wavelength 363/400.
+14:1:57.547  >> Start simulation for wavelength 364/400.
+14:1:57.547  >> Start simulation for wavelength 365/400.
+14:1:57.547  >> Start simulation for wavelength 366/400.
+14:1:57.547  >> Start simulation for wavelength 367/400.
+14:1:57.563  >> Start simulation for wavelength 368/400.
+14:1:57.563  >> Start simulation for wavelength 369/400.
+14:1:57.563  >> Start simulation for wavelength 370/400.
+14:1:57.563  >> Start simulation for wavelength 371/400.
+14:1:57.563  >> Start simulation for wavelength 372/400.
+14:1:57.563  >> Start simulation for wavelength 373/400.
+14:1:57.563  >> Start simulation for wavelength 374/400.
+14:1:57.563  >> Start simulation for wavelength 375/400.
+14:1:57.563  >> Start simulation for wavelength 376/400.
+14:1:57.563  >> Start simulation for wavelength 377/400.
+14:1:57.563  >> Start simulation for wavelength 378/400.
+14:1:57.563  >> Start simulation for wavelength 379/400.
+14:1:57.563  >> Start simulation for wavelength 380/400.
+14:1:57.563  >> Start simulation for wavelength 381/400.
+14:1:57.563  >> Start simulation for wavelength 382/400.
+14:1:57.563  >> Start simulation for wavelength 383/400.
+14:1:57.563  >> Start simulation for wavelength 384/400.
+14:1:57.563  >> Start simulation for wavelength 385/400.
+14:1:57.563  >> Start simulation for wavelength 386/400.
+14:1:57.563  >> Start simulation for wavelength 387/400.
+14:1:57.563  >> Start simulation for wavelength 388/400.
+14:1:57.563  >> Start simulation for wavelength 389/400.
+14:1:57.563  >> Start simulation for wavelength 390/400.
+14:1:57.578  >> Start simulation for wavelength 391/400.
+14:1:57.578  >> Start simulation for wavelength 392/400.
+14:1:57.578  >> Start simulation for wavelength 393/400.
+14:1:57.578  >> Start simulation for wavelength 394/400.
+14:1:57.578  >> Start simulation for wavelength 395/400.
+14:1:57.578  >> Start simulation for wavelength 396/400.
+14:1:57.578  >> Start simulation for wavelength 397/400.
+14:1:57.578  >> Start simulation for wavelength 398/400.
+14:1:57.578  >> Start simulation for wavelength 399/400.
+14:1:57.578  >> Start simulation for wavelength 400/400.
+14:1:57.578  >> Simulation complete.
+
+14:1:57.657  >> Begin serialize zero order.
+14:1:59.219  >> Begin serialize first order.
+14:1:59.219  >> Left order.
+14:1:59.422  >> Right order.
+14:1:59.61   >> Top order.
+14:1:59.797  >> Bottom order.
+14:1:59.969  >> Adjust image energies.
+14:1:59.985  >> Serialization complete.
+
+14:2:0.016   >> Begin building H-matrix for zero order.
+14:2:0.032   >> Begin building H-matrix for first left order.
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BuildMatrixH_Real_V2/LeftFirstOrder', 'C:\Users\Dennis Høj\Desktop\Simulering\BuildMatrixH_Real_V2.m', 77)" style="font-weight:bold">BuildMatrixH_Real_V2/LeftFirstOrder</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\BuildMatrixH_Real_V2.m',77,0)">line 77</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BuildMatrixH_Real_V2', 'C:\Users\Dennis Høj\Desktop\Simulering\BuildMatrixH_Real_V2.m', 45)" style="font-weight:bold">BuildMatrixH_Real_V2</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\BuildMatrixH_Real_V2.m',45,0)">line 45</a>)
+H = [ZeroOrder;LeftFirstOrder;RightFirstOrder;TopFirstOrder;BottomFirstOrder];
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 152)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',152,0)">line 152</a>)
+[H] = BuildMatrixH_Real_V2(N_wave_estimate,N_0,i_MeanCali);
+} 
+CTIS_Simulator_V4
+[Warning: File not found or permission denied] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 1)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',1,0)">line 1</a>)] 
+
+14:3:2.369   >> Start simulation for wavelength 1/400.
+14:3:2.369   >> Start simulation for wavelength 2/400.
+14:3:2.369   >> Start simulation for wavelength 3/400.
+14:3:2.369   >> Start simulation for wavelength 4/400.
+14:3:2.369   >> Start simulation for wavelength 5/400.
+14:3:2.369   >> Start simulation for wavelength 6/400.
+14:3:2.385   >> Start simulation for wavelength 7/400.
+14:3:2.385   >> Start simulation for wavelength 8/400.
+14:3:2.385   >> Start simulation for wavelength 9/400.
+14:3:2.385   >> Start simulation for wavelength 10/400.
+14:3:2.385   >> Start simulation for wavelength 11/400.
+14:3:2.385   >> Start simulation for wavelength 12/400.
+14:3:2.385   >> Start simulation for wavelength 13/400.
+14:3:2.385   >> Start simulation for wavelength 14/400.
+14:3:2.385   >> Start simulation for wavelength 15/400.
+14:3:2.385   >> Start simulation for wavelength 16/400.
+14:3:2.385   >> Start simulation for wavelength 17/400.
+14:3:2.385   >> Start simulation for wavelength 18/400.
+14:3:2.385   >> Start simulation for wavelength 19/400.
+14:3:2.385   >> Start simulation for wavelength 20/400.
+14:3:2.385   >> Start simulation for wavelength 21/400.
+14:3:2.385   >> Start simulation for wavelength 22/400.
+14:3:2.385   >> Start simulation for wavelength 23/400.
+14:3:2.385   >> Start simulation for wavelength 24/400.
+14:3:2.385   >> Start simulation for wavelength 25/400.
+14:3:2.385   >> Start simulation for wavelength 26/400.
+14:3:2.385   >> Start simulation for wavelength 27/400.
+14:3:2.385   >> Start simulation for wavelength 28/400.
+14:3:2.385   >> Start simulation for wavelength 29/400.
+14:3:2.401   >> Start simulation for wavelength 30/400.
+14:3:2.401   >> Start simulation for wavelength 31/400.
+14:3:2.401   >> Start simulation for wavelength 32/400.
+14:3:2.401   >> Start simulation for wavelength 33/400.
+14:3:2.401   >> Start simulation for wavelength 34/400.
+14:3:2.401   >> Start simulation for wavelength 35/400.
+14:3:2.401   >> Start simulation for wavelength 36/400.
+14:3:2.401   >> Start simulation for wavelength 37/400.
+14:3:2.401   >> Start simulation for wavelength 38/400.
+14:3:2.401   >> Start simulation for wavelength 39/400.
+14:3:2.401   >> Start simulation for wavelength 40/400.
+14:3:2.401   >> Start simulation for wavelength 41/400.
+14:3:2.401   >> Start simulation for wavelength 42/400.
+14:3:2.401   >> Start simulation for wavelength 43/400.
+14:3:2.401   >> Start simulation for wavelength 44/400.
+14:3:2.401   >> Start simulation for wavelength 45/400.
+14:3:2.401   >> Start simulation for wavelength 46/400.
+14:3:2.401   >> Start simulation for wavelength 47/400.
+14:3:2.401   >> Start simulation for wavelength 48/400.
+14:3:2.401   >> Start simulation for wavelength 49/400.
+14:3:2.401   >> Start simulation for wavelength 50/400.
+14:3:2.401   >> Start simulation for wavelength 51/400.
+14:3:2.401   >> Start simulation for wavelength 52/400.
+14:3:2.401   >> Start simulation for wavelength 53/400.
+14:3:2.416   >> Start simulation for wavelength 54/400.
+14:3:2.416   >> Start simulation for wavelength 55/400.
+14:3:2.416   >> Start simulation for wavelength 56/400.
+14:3:2.416   >> Start simulation for wavelength 57/400.
+14:3:2.416   >> Start simulation for wavelength 58/400.
+14:3:2.416   >> Start simulation for wavelength 59/400.
+14:3:2.416   >> Start simulation for wavelength 60/400.
+14:3:2.416   >> Start simulation for wavelength 61/400.
+14:3:2.416   >> Start simulation for wavelength 62/400.
+14:3:2.416   >> Start simulation for wavelength 63/400.
+14:3:2.416   >> Start simulation for wavelength 64/400.
+14:3:2.416   >> Start simulation for wavelength 65/400.
+14:3:2.416   >> Start simulation for wavelength 66/400.
+14:3:2.416   >> Start simulation for wavelength 67/400.
+14:3:2.416   >> Start simulation for wavelength 68/400.
+14:3:2.416   >> Start simulation for wavelength 69/400.
+14:3:2.416   >> Start simulation for wavelength 70/400.
+14:3:2.416   >> Start simulation for wavelength 71/400.
+14:3:2.416   >> Start simulation for wavelength 72/400.
+14:3:2.416   >> Start simulation for wavelength 73/400.
+14:3:2.416   >> Start simulation for wavelength 74/400.
+14:3:2.416   >> Start simulation for wavelength 75/400.
+14:3:2.416   >> Start simulation for wavelength 76/400.
+14:3:2.416   >> Start simulation for wavelength 77/400.
+14:3:2.432   >> Start simulation for wavelength 78/400.
+14:3:2.432   >> Start simulation for wavelength 79/400.
+14:3:2.432   >> Start simulation for wavelength 80/400.
+14:3:2.432   >> Start simulation for wavelength 81/400.
+14:3:2.432   >> Start simulation for wavelength 82/400.
+14:3:2.432   >> Start simulation for wavelength 83/400.
+14:3:2.432   >> Start simulation for wavelength 84/400.
+14:3:2.432   >> Start simulation for wavelength 85/400.
+14:3:2.432   >> Start simulation for wavelength 86/400.
+14:3:2.432   >> Start simulation for wavelength 87/400.
+14:3:2.432   >> Start simulation for wavelength 88/400.
+14:3:2.432   >> Start simulation for wavelength 89/400.
+14:3:2.432   >> Start simulation for wavelength 90/400.
+14:3:2.432   >> Start simulation for wavelength 91/400.
+14:3:2.432   >> Start simulation for wavelength 92/400.
+14:3:2.432   >> Start simulation for wavelength 93/400.
+14:3:2.432   >> Start simulation for wavelength 94/400.
+14:3:2.432   >> Start simulation for wavelength 95/400.
+14:3:2.432   >> Start simulation for wavelength 96/400.
+14:3:2.432   >> Start simulation for wavelength 97/400.
+14:3:2.432   >> Start simulation for wavelength 98/400.
+14:3:2.432   >> Start simulation for wavelength 99/400.
+14:3:2.432   >> Start simulation for wavelength 100/400.
+14:3:2.432   >> Start simulation for wavelength 101/400.
+14:3:2.448   >> Start simulation for wavelength 102/400.
+14:3:2.448   >> Start simulation for wavelength 103/400.
+14:3:2.448   >> Start simulation for wavelength 104/400.
+14:3:2.448   >> Start simulation for wavelength 105/400.
+14:3:2.448   >> Start simulation for wavelength 106/400.
+14:3:2.448   >> Start simulation for wavelength 107/400.
+14:3:2.448   >> Start simulation for wavelength 108/400.
+14:3:2.448   >> Start simulation for wavelength 109/400.
+14:3:2.448   >> Start simulation for wavelength 110/400.
+14:3:2.448   >> Start simulation for wavelength 111/400.
+14:3:2.448   >> Start simulation for wavelength 112/400.
+14:3:2.448   >> Start simulation for wavelength 113/400.
+14:3:2.448   >> Start simulation for wavelength 114/400.
+14:3:2.448   >> Start simulation for wavelength 115/400.
+14:3:2.448   >> Start simulation for wavelength 116/400.
+14:3:2.448   >> Start simulation for wavelength 117/400.
+14:3:2.448   >> Start simulation for wavelength 118/400.
+14:3:2.448   >> Start simulation for wavelength 119/400.
+14:3:2.448   >> Start simulation for wavelength 120/400.
+14:3:2.448   >> Start simulation for wavelength 121/400.
+14:3:2.448   >> Start simulation for wavelength 122/400.
+14:3:2.448   >> Start simulation for wavelength 123/400.
+14:3:2.448   >> Start simulation for wavelength 124/400.
+14:3:2.463   >> Start simulation for wavelength 125/400.
+14:3:2.463   >> Start simulation for wavelength 126/400.
+14:3:2.463   >> Start simulation for wavelength 127/400.
+14:3:2.463   >> Start simulation for wavelength 128/400.
+14:3:2.463   >> Start simulation for wavelength 129/400.
+14:3:2.463   >> Start simulation for wavelength 130/400.
+14:3:2.463   >> Start simulation for wavelength 131/400.
+14:3:2.463   >> Start simulation for wavelength 132/400.
+14:3:2.463   >> Start simulation for wavelength 133/400.
+14:3:2.463   >> Start simulation for wavelength 134/400.
+14:3:2.463   >> Start simulation for wavelength 135/400.
+14:3:2.463   >> Start simulation for wavelength 136/400.
+14:3:2.463   >> Start simulation for wavelength 137/400.
+14:3:2.463   >> Start simulation for wavelength 138/400.
+14:3:2.463   >> Start simulation for wavelength 139/400.
+14:3:2.463   >> Start simulation for wavelength 140/400.
+14:3:2.463   >> Start simulation for wavelength 141/400.
+14:3:2.463   >> Start simulation for wavelength 142/400.
+14:3:2.463   >> Start simulation for wavelength 143/400.
+14:3:2.463   >> Start simulation for wavelength 144/400.
+14:3:2.479   >> Start simulation for wavelength 145/400.
+14:3:2.479   >> Start simulation for wavelength 146/400.
+14:3:2.479   >> Start simulation for wavelength 147/400.
+14:3:2.479   >> Start simulation for wavelength 148/400.
+14:3:2.479   >> Start simulation for wavelength 149/400.
+14:3:2.479   >> Start simulation for wavelength 150/400.
+14:3:2.479   >> Start simulation for wavelength 151/400.
+14:3:2.479   >> Start simulation for wavelength 152/400.
+14:3:2.479   >> Start simulation for wavelength 153/400.
+14:3:2.479   >> Start simulation for wavelength 154/400.
+14:3:2.479   >> Start simulation for wavelength 155/400.
+14:3:2.479   >> Start simulation for wavelength 156/400.
+14:3:2.479   >> Start simulation for wavelength 157/400.
+14:3:2.479   >> Start simulation for wavelength 158/400.
+14:3:2.479   >> Start simulation for wavelength 159/400.
+14:3:2.479   >> Start simulation for wavelength 160/400.
+14:3:2.479   >> Start simulation for wavelength 161/400.
+14:3:2.479   >> Start simulation for wavelength 162/400.
+14:3:2.479   >> Start simulation for wavelength 163/400.
+14:3:2.494   >> Start simulation for wavelength 164/400.
+14:3:2.494   >> Start simulation for wavelength 165/400.
+14:3:2.494   >> Start simulation for wavelength 166/400.
+14:3:2.494   >> Start simulation for wavelength 167/400.
+14:3:2.494   >> Start simulation for wavelength 168/400.
+14:3:2.494   >> Start simulation for wavelength 169/400.
+14:3:2.494   >> Start simulation for wavelength 170/400.
+14:3:2.494   >> Start simulation for wavelength 171/400.
+14:3:2.494   >> Start simulation for wavelength 172/400.
+14:3:2.494   >> Start simulation for wavelength 173/400.
+14:3:2.494   >> Start simulation for wavelength 174/400.
+14:3:2.494   >> Start simulation for wavelength 175/400.
+14:3:2.494   >> Start simulation for wavelength 176/400.
+14:3:2.494   >> Start simulation for wavelength 177/400.
+14:3:2.494   >> Start simulation for wavelength 178/400.
+14:3:2.494   >> Start simulation for wavelength 179/400.
+14:3:2.494   >> Start simulation for wavelength 180/400.
+14:3:2.494   >> Start simulation for wavelength 181/400.
+14:3:2.494   >> Start simulation for wavelength 182/400.
+14:3:2.494   >> Start simulation for wavelength 183/400.
+14:3:2.494   >> Start simulation for wavelength 184/400.
+14:3:2.494   >> Start simulation for wavelength 185/400.
+14:3:2.494   >> Start simulation for wavelength 186/400.
+14:3:2.51    >> Start simulation for wavelength 187/400.
+14:3:2.51    >> Start simulation for wavelength 188/400.
+14:3:2.51    >> Start simulation for wavelength 189/400.
+14:3:2.51    >> Start simulation for wavelength 190/400.
+14:3:2.51    >> Start simulation for wavelength 191/400.
+14:3:2.51    >> Start simulation for wavelength 192/400.
+14:3:2.51    >> Start simulation for wavelength 193/400.
+14:3:2.51    >> Start simulation for wavelength 194/400.
+14:3:2.51    >> Start simulation for wavelength 195/400.
+14:3:2.51    >> Start simulation for wavelength 196/400.
+14:3:2.51    >> Start simulation for wavelength 197/400.
+14:3:2.51    >> Start simulation for wavelength 198/400.
+14:3:2.51    >> Start simulation for wavelength 199/400.
+14:3:2.51    >> Start simulation for wavelength 200/400.
+14:3:4.716   >> Start simulation for wavelength 201/400.
+14:3:6.916   >> Start simulation for wavelength 202/400.
+14:3:6.916   >> Start simulation for wavelength 203/400.
+14:3:6.916   >> Start simulation for wavelength 204/400.
+14:3:6.916   >> Start simulation for wavelength 205/400.
+14:3:6.916   >> Start simulation for wavelength 206/400.
+14:3:6.916   >> Start simulation for wavelength 207/400.
+14:3:6.916   >> Start simulation for wavelength 208/400.
+14:3:6.916   >> Start simulation for wavelength 209/400.
+14:3:6.916   >> Start simulation for wavelength 210/400.
+14:3:6.916   >> Start simulation for wavelength 211/400.
+14:3:6.916   >> Start simulation for wavelength 212/400.
+14:3:6.916   >> Start simulation for wavelength 213/400.
+14:3:6.916   >> Start simulation for wavelength 214/400.
+14:3:6.916   >> Start simulation for wavelength 215/400.
+14:3:6.916   >> Start simulation for wavelength 216/400.
+14:3:6.916   >> Start simulation for wavelength 217/400.
+14:3:6.916   >> Start simulation for wavelength 218/400.
+14:3:6.916   >> Start simulation for wavelength 219/400.
+14:3:6.916   >> Start simulation for wavelength 220/400.
+14:3:6.932   >> Start simulation for wavelength 221/400.
+14:3:6.932   >> Start simulation for wavelength 222/400.
+14:3:6.932   >> Start simulation for wavelength 223/400.
+14:3:6.932   >> Start simulation for wavelength 224/400.
+14:3:6.932   >> Start simulation for wavelength 225/400.
+14:3:6.932   >> Start simulation for wavelength 226/400.
+14:3:6.932   >> Start simulation for wavelength 227/400.
+14:3:6.932   >> Start simulation for wavelength 228/400.
+14:3:6.932   >> Start simulation for wavelength 229/400.
+14:3:6.932   >> Start simulation for wavelength 230/400.
+14:3:6.932   >> Start simulation for wavelength 231/400.
+14:3:6.932   >> Start simulation for wavelength 232/400.
+14:3:6.932   >> Start simulation for wavelength 233/400.
+14:3:6.932   >> Start simulation for wavelength 234/400.
+14:3:6.932   >> Start simulation for wavelength 235/400.
+14:3:6.932   >> Start simulation for wavelength 236/400.
+14:3:6.932   >> Start simulation for wavelength 237/400.
+14:3:6.932   >> Start simulation for wavelength 238/400.
+14:3:6.932   >> Start simulation for wavelength 239/400.
+14:3:6.932   >> Start simulation for wavelength 240/400.
+14:3:6.932   >> Start simulation for wavelength 241/400.
+14:3:6.932   >> Start simulation for wavelength 242/400.
+14:3:6.932   >> Start simulation for wavelength 243/400.
+14:3:6.947   >> Start simulation for wavelength 244/400.
+14:3:6.947   >> Start simulation for wavelength 245/400.
+14:3:6.947   >> Start simulation for wavelength 246/400.
+14:3:6.947   >> Start simulation for wavelength 247/400.
+14:3:6.947   >> Start simulation for wavelength 248/400.
+14:3:6.947   >> Start simulation for wavelength 249/400.
+14:3:6.947   >> Start simulation for wavelength 250/400.
+14:3:6.947   >> Start simulation for wavelength 251/400.
+14:3:6.947   >> Start simulation for wavelength 252/400.
+14:3:6.947   >> Start simulation for wavelength 253/400.
+14:3:6.947   >> Start simulation for wavelength 254/400.
+14:3:6.947   >> Start simulation for wavelength 255/400.
+14:3:6.947   >> Start simulation for wavelength 256/400.
+14:3:6.947   >> Start simulation for wavelength 257/400.
+14:3:6.947   >> Start simulation for wavelength 258/400.
+14:3:6.947   >> Start simulation for wavelength 259/400.
+14:3:6.947   >> Start simulation for wavelength 260/400.
+14:3:6.947   >> Start simulation for wavelength 261/400.
+14:3:6.947   >> Start simulation for wavelength 262/400.
+14:3:6.963   >> Start simulation for wavelength 263/400.
+14:3:6.963   >> Start simulation for wavelength 264/400.
+14:3:6.963   >> Start simulation for wavelength 265/400.
+14:3:6.963   >> Start simulation for wavelength 266/400.
+14:3:6.963   >> Start simulation for wavelength 267/400.
+14:3:6.963   >> Start simulation for wavelength 268/400.
+14:3:6.963   >> Start simulation for wavelength 269/400.
+14:3:6.963   >> Start simulation for wavelength 270/400.
+14:3:6.963   >> Start simulation for wavelength 271/400.
+14:3:6.963   >> Start simulation for wavelength 272/400.
+14:3:6.963   >> Start simulation for wavelength 273/400.
+14:3:6.963   >> Start simulation for wavelength 274/400.
+14:3:6.963   >> Start simulation for wavelength 275/400.
+14:3:6.963   >> Start simulation for wavelength 276/400.
+14:3:6.963   >> Start simulation for wavelength 277/400.
+14:3:6.963   >> Start simulation for wavelength 278/400.
+14:3:6.963   >> Start simulation for wavelength 279/400.
+14:3:6.963   >> Start simulation for wavelength 280/400.
+14:3:6.963   >> Start simulation for wavelength 281/400.
+14:3:6.978   >> Start simulation for wavelength 282/400.
+14:3:6.978   >> Start simulation for wavelength 283/400.
+14:3:6.978   >> Start simulation for wavelength 284/400.
+14:3:6.978   >> Start simulation for wavelength 285/400.
+14:3:6.978   >> Start simulation for wavelength 286/400.
+14:3:6.978   >> Start simulation for wavelength 287/400.
+14:3:6.978   >> Start simulation for wavelength 288/400.
+14:3:6.978   >> Start simulation for wavelength 289/400.
+14:3:6.978   >> Start simulation for wavelength 290/400.
+14:3:6.978   >> Start simulation for wavelength 291/400.
+14:3:6.978   >> Start simulation for wavelength 292/400.
+14:3:6.978   >> Start simulation for wavelength 293/400.
+14:3:6.978   >> Start simulation for wavelength 294/400.
+14:3:6.978   >> Start simulation for wavelength 295/400.
+14:3:6.978   >> Start simulation for wavelength 296/400.
+14:3:6.994   >> Start simulation for wavelength 297/400.
+14:3:6.994   >> Start simulation for wavelength 298/400.
+14:3:6.994   >> Start simulation for wavelength 299/400.
+14:3:6.994   >> Start simulation for wavelength 300/400.
+14:3:6.994   >> Start simulation for wavelength 301/400.
+14:3:6.994   >> Start simulation for wavelength 302/400.
+14:3:6.994   >> Start simulation for wavelength 303/400.
+14:3:6.994   >> Start simulation for wavelength 304/400.
+14:3:6.994   >> Start simulation for wavelength 305/400.
+14:3:6.994   >> Start simulation for wavelength 306/400.
+14:3:6.994   >> Start simulation for wavelength 307/400.
+14:3:6.994   >> Start simulation for wavelength 308/400.
+14:3:6.994   >> Start simulation for wavelength 309/400.
+14:3:6.994   >> Start simulation for wavelength 310/400.
+14:3:6.994   >> Start simulation for wavelength 311/400.
+14:3:6.994   >> Start simulation for wavelength 312/400.
+14:3:7.01    >> Start simulation for wavelength 313/400.
+14:3:7.01    >> Start simulation for wavelength 314/400.
+14:3:7.01    >> Start simulation for wavelength 315/400.
+14:3:7.01    >> Start simulation for wavelength 316/400.
+14:3:7.01    >> Start simulation for wavelength 317/400.
+14:3:7.01    >> Start simulation for wavelength 318/400.
+14:3:7.01    >> Start simulation for wavelength 319/400.
+14:3:7.01    >> Start simulation for wavelength 320/400.
+14:3:7.01    >> Start simulation for wavelength 321/400.
+14:3:7.01    >> Start simulation for wavelength 322/400.
+14:3:7.01    >> Start simulation for wavelength 323/400.
+14:3:7.01    >> Start simulation for wavelength 324/400.
+14:3:7.01    >> Start simulation for wavelength 325/400.
+14:3:7.01    >> Start simulation for wavelength 326/400.
+14:3:7.01    >> Start simulation for wavelength 327/400.
+14:3:7.01    >> Start simulation for wavelength 328/400.
+14:3:7.01    >> Start simulation for wavelength 329/400.
+14:3:7.01    >> Start simulation for wavelength 330/400.
+14:3:7.01    >> Start simulation for wavelength 331/400.
+14:3:7.01    >> Start simulation for wavelength 332/400.
+14:3:7.01    >> Start simulation for wavelength 333/400.
+14:3:7.01    >> Start simulation for wavelength 334/400.
+14:3:7.025   >> Start simulation for wavelength 335/400.
+14:3:7.025   >> Start simulation for wavelength 336/400.
+14:3:7.025   >> Start simulation for wavelength 337/400.
+14:3:7.025   >> Start simulation for wavelength 338/400.
+14:3:7.025   >> Start simulation for wavelength 339/400.
+14:3:7.025   >> Start simulation for wavelength 340/400.
+14:3:7.025   >> Start simulation for wavelength 341/400.
+14:3:7.025   >> Start simulation for wavelength 342/400.
+14:3:7.025   >> Start simulation for wavelength 343/400.
+14:3:7.025   >> Start simulation for wavelength 344/400.
+14:3:7.025   >> Start simulation for wavelength 345/400.
+14:3:7.025   >> Start simulation for wavelength 346/400.
+14:3:7.025   >> Start simulation for wavelength 347/400.
+14:3:7.025   >> Start simulation for wavelength 348/400.
+14:3:7.025   >> Start simulation for wavelength 349/400.
+14:3:7.025   >> Start simulation for wavelength 350/400.
+14:3:7.025   >> Start simulation for wavelength 351/400.
+14:3:7.025   >> Start simulation for wavelength 352/400.
+14:3:7.025   >> Start simulation for wavelength 353/400.
+14:3:7.025   >> Start simulation for wavelength 354/400.
+14:3:7.025   >> Start simulation for wavelength 355/400.
+14:3:7.025   >> Start simulation for wavelength 356/400.
+14:3:7.025   >> Start simulation for wavelength 357/400.
+14:3:7.025   >> Start simulation for wavelength 358/400.
+14:3:7.025   >> Start simulation for wavelength 359/400.
+14:3:7.041   >> Start simulation for wavelength 360/400.
+14:3:7.041   >> Start simulation for wavelength 361/400.
+14:3:7.041   >> Start simulation for wavelength 362/400.
+14:3:7.041   >> Start simulation for wavelength 363/400.
+14:3:7.041   >> Start simulation for wavelength 364/400.
+14:3:7.041   >> Start simulation for wavelength 365/400.
+14:3:7.041   >> Start simulation for wavelength 366/400.
+14:3:7.041   >> Start simulation for wavelength 367/400.
+14:3:7.041   >> Start simulation for wavelength 368/400.
+14:3:7.041   >> Start simulation for wavelength 369/400.
+14:3:7.041   >> Start simulation for wavelength 370/400.
+14:3:7.041   >> Start simulation for wavelength 371/400.
+14:3:7.041   >> Start simulation for wavelength 372/400.
+14:3:7.041   >> Start simulation for wavelength 373/400.
+14:3:7.041   >> Start simulation for wavelength 374/400.
+14:3:7.041   >> Start simulation for wavelength 375/400.
+14:3:7.041   >> Start simulation for wavelength 376/400.
+14:3:7.041   >> Start simulation for wavelength 377/400.
+14:3:7.041   >> Start simulation for wavelength 378/400.
+14:3:7.041   >> Start simulation for wavelength 379/400.
+14:3:7.041   >> Start simulation for wavelength 380/400.
+14:3:7.041   >> Start simulation for wavelength 381/400.
+14:3:7.041   >> Start simulation for wavelength 382/400.
+14:3:7.041   >> Start simulation for wavelength 383/400.
+14:3:7.057   >> Start simulation for wavelength 384/400.
+14:3:7.057   >> Start simulation for wavelength 385/400.
+14:3:7.057   >> Start simulation for wavelength 386/400.
+14:3:7.057   >> Start simulation for wavelength 387/400.
+14:3:7.057   >> Start simulation for wavelength 388/400.
+14:3:7.057   >> Start simulation for wavelength 389/400.
+14:3:7.057   >> Start simulation for wavelength 390/400.
+14:3:7.057   >> Start simulation for wavelength 391/400.
+14:3:7.057   >> Start simulation for wavelength 392/400.
+14:3:7.057   >> Start simulation for wavelength 393/400.
+14:3:7.057   >> Start simulation for wavelength 394/400.
+14:3:7.057   >> Start simulation for wavelength 395/400.
+14:3:7.057   >> Start simulation for wavelength 396/400.
+14:3:7.057   >> Start simulation for wavelength 397/400.
+14:3:7.057   >> Start simulation for wavelength 398/400.
+14:3:7.057   >> Start simulation for wavelength 399/400.
+14:3:7.057   >> Start simulation for wavelength 400/400.
+14:3:7.057   >> Simulation complete.
+
+14:3:7.088   >> Begin serialize zero order.
+14:3:7.275   >> Begin serialize first order.
+14:3:7.275   >> Left order.
+14:3:7.51    >> Right order.
+14:3:7.666   >> Top order.
+14:3:7.807   >> Bottom order.
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imshow')" style="font-weight:bold">imshow</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerializeImage_Real', 'C:\Users\Dennis Høj\Desktop\Simulering\SerializeImage_Real.m', 55)" style="font-weight:bold">SerializeImage_Real</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\SerializeImage_Real.m',55,0)">line 55</a>)
+figure;imshow(Image_select)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 146)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',146,0)">line 146</a>)
+[g] = SerializeImage_Real( Image,i_0_width,i_0_height,i_start,N_1);
+} 
+CTIS_Simulator_V4
+[Warning: File not found or permission denied] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 1)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',1,0)">line 1</a>)] 
+
+14:3:29.088  >> Start simulation for wavelength 1/400.
+14:3:29.663  >> Start simulation for wavelength 2/400.
+14:3:30.225  >> Start simulation for wavelength 3/400.
+14:3:30.788  >> Start simulation for wavelength 4/400.
+14:3:31.366  >> Start simulation for wavelength 5/400.
+14:3:31.944  >> Start simulation for wavelength 6/400.
+14:3:32.506  >> Start simulation for wavelength 7/400.
+14:3:33.069  >> Start simulation for wavelength 8/400.
+14:3:33.616  >> Start simulation for wavelength 9/400.
+14:3:34.194  >> Start simulation for wavelength 10/400.
+14:3:34.756  >> Start simulation for wavelength 11/400.
+14:3:35.319  >> Start simulation for wavelength 12/400.
+14:3:35.875  >> Start simulation for wavelength 13/400.
+14:3:36.453  >> Start simulation for wavelength 14/400.
+14:3:37.015  >> Start simulation for wavelength 15/400.
+14:3:37.593  >> Start simulation for wavelength 16/400.
+14:3:38.173  >> Start simulation for wavelength 17/400.
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulateSystemV3', 'C:\Users\Dennis Høj\Desktop\Simulering\SimulateSystemV3.m', 158)" style="font-weight:bold">SimulateSystemV3</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\SimulateSystemV3.m',158,0)">line 158</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 56)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',56,0)">line 56</a>)
+Image0 = SimulateSystemV3( Cube, N_cam, lambda_l,lambda_u,f,a,h_A,h_cam,boolCamRespons,boolLightSource);
+} 
+CTIS_Simulator_V4
+[Warning: File not found or permission denied] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 1)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',1,0)">line 1</a>)] 
+
+14:3:48.727  >> Start simulation for wavelength 1/100.
+14:3:49.336  >> Start simulation for wavelength 2/100.
+14:3:49.914  >> Start simulation for wavelength 3/100.
+14:3:50.477  >> Start simulation for wavelength 4/100.
+14:3:51.049  >> Start simulation for wavelength 5/100.
+14:3:51.627  >> Start simulation for wavelength 6/100.
+14:3:52.206  >> Start simulation for wavelength 7/100.
+14:3:52.768  >> Start simulation for wavelength 8/100.
+14:3:53.331  >> Start simulation for wavelength 9/100.
+14:3:53.893  >> Start simulation for wavelength 10/100.
+14:3:54.456  >> Start simulation for wavelength 11/100.
+14:3:55.018  >> Start simulation for wavelength 12/100.
+14:3:55.596  >> Start simulation for wavelength 13/100.
+14:3:56.159  >> Start simulation for wavelength 14/100.
+14:3:56.721  >> Start simulation for wavelength 15/100.
+14:3:57.284  >> Start simulation for wavelength 16/100.
+14:3:57.831  >> Start simulation for wavelength 17/100.
+14:3:58.389  >> Start simulation for wavelength 18/100.
+14:3:58.952  >> Start simulation for wavelength 19/100.
+14:3:59.514  >> Start simulation for wavelength 20/100.
+14:4:0.093   >> Start simulation for wavelength 21/100.
+14:4:0.655   >> Start simulation for wavelength 22/100.
+14:4:1.202   >> Start simulation for wavelength 23/100.
+14:4:1.764   >> Start simulation for wavelength 24/100.
+14:4:2.327   >> Start simulation for wavelength 25/100.
+14:4:2.889   >> Start simulation for wavelength 26/100.
+14:4:3.452   >> Start simulation for wavelength 27/100.
+14:4:4.015   >> Start simulation for wavelength 28/100.
+14:4:4.593   >> Start simulation for wavelength 29/100.
+14:4:5.155   >> Start simulation for wavelength 30/100.
+14:4:5.705   >> Start simulation for wavelength 31/100.
+14:4:6.267   >> Start simulation for wavelength 32/100.
+14:4:6.83    >> Start simulation for wavelength 33/100.
+14:4:7.392   >> Start simulation for wavelength 34/100.
+14:4:7.962   >> Start simulation for wavelength 35/100.
+14:4:8.524   >> Start simulation for wavelength 36/100.
+14:4:9.102   >> Start simulation for wavelength 37/100.
+14:4:9.665   >> Start simulation for wavelength 38/100.
+14:4:10.227  >> Start simulation for wavelength 39/100.
+14:4:10.805  >> Start simulation for wavelength 40/100.
+14:4:11.368  >> Start simulation for wavelength 41/100.
+14:4:12.012  >> Start simulation for wavelength 42/100.
+14:4:12.575  >> Start simulation for wavelength 43/100.
+14:4:13.122  >> Start simulation for wavelength 44/100.
+14:4:13.693  >> Start simulation for wavelength 45/100.
+14:4:14.24   >> Start simulation for wavelength 46/100.
+14:4:14.802  >> Start simulation for wavelength 47/100.
+14:4:15.365  >> Start simulation for wavelength 48/100.
+14:4:15.943  >> Start simulation for wavelength 49/100.
+14:4:16.506  >> Start simulation for wavelength 50/100.
+14:4:17.068  >> Start simulation for wavelength 51/100.
+14:4:17.631  >> Start simulation for wavelength 52/100.
+14:4:18.209  >> Start simulation for wavelength 53/100.
+14:4:18.781  >> Start simulation for wavelength 54/100.
+14:4:19.344  >> Start simulation for wavelength 55/100.
+14:4:19.922  >> Start simulation for wavelength 56/100.
+14:4:20.547  >> Start simulation for wavelength 57/100.
+14:4:21.109  >> Start simulation for wavelength 58/100.
+14:4:21.656  >> Start simulation for wavelength 59/100.
+14:4:22.228  >> Start simulation for wavelength 60/100.
+14:4:22.791  >> Start simulation for wavelength 61/100.
+14:4:23.365  >> Start simulation for wavelength 62/100.
+14:4:23.99   >> Start simulation for wavelength 63/100.
+14:4:24.553  >> Start simulation for wavelength 64/100.
+14:4:25.115  >> Start simulation for wavelength 65/100.
+14:4:25.678  >> Start simulation for wavelength 66/100.
+14:4:26.243  >> Start simulation for wavelength 67/100.
+14:4:26.806  >> Start simulation for wavelength 68/100.
+14:4:27.4    >> Start simulation for wavelength 69/100.
+14:4:28.056  >> Start simulation for wavelength 70/100.
+14:4:28.618  >> Start simulation for wavelength 71/100.
+14:4:29.196  >> Start simulation for wavelength 72/100.
+14:4:29.775  >> Start simulation for wavelength 73/100.
+14:4:30.337  >> Start simulation for wavelength 74/100.
+14:4:30.9    >> Start simulation for wavelength 75/100.
+14:4:31.478  >> Start simulation for wavelength 76/100.
+14:4:32.04   >> Start simulation for wavelength 77/100.
+14:4:32.618  >> Start simulation for wavelength 78/100.
+14:4:33.179  >> Start simulation for wavelength 79/100.
+14:4:33.757  >> Start simulation for wavelength 80/100.
+14:4:34.32   >> Start simulation for wavelength 81/100.
+14:4:34.898  >> Start simulation for wavelength 82/100.
+14:4:35.476  >> Start simulation for wavelength 83/100.
+14:4:36.038  >> Start simulation for wavelength 84/100.
+14:4:36.601  >> Start simulation for wavelength 85/100.
+14:4:37.179  >> Start simulation for wavelength 86/100.
+14:4:37.742  >> Start simulation for wavelength 87/100.
+14:4:38.304  >> Start simulation for wavelength 88/100.
+14:4:38.898  >> Start simulation for wavelength 89/100.
+14:4:39.46   >> Start simulation for wavelength 90/100.
+14:4:40.023  >> Start simulation for wavelength 91/100.
+14:4:40.585  >> Start simulation for wavelength 92/100.
+14:4:41.148  >> Start simulation for wavelength 93/100.
+14:4:41.726  >> Start simulation for wavelength 94/100.
+14:4:42.288  >> Start simulation for wavelength 95/100.
+14:4:42.852  >> Start simulation for wavelength 96/100.
+14:4:43.414  >> Start simulation for wavelength 97/100.
+14:4:43.992  >> Start simulation for wavelength 98/100.
+14:4:44.555  >> Start simulation for wavelength 99/100.
+14:4:45.133  >> Start simulation for wavelength 100/100.
+14:4:45.727  >> Simulation complete.
+
+14:4:45.742  >> Begin serialize zero order.
+14:4:45.883  >> Begin serialize first order.
+14:4:45.883  >> Left order.
+14:4:46.032  >> Right order.
+14:4:46.211  >> Top order.
+14:4:46.364  >> Bottom order.
+14:4:46.52   >> Adjust image energies.
+14:4:46.52   >> Serialization complete.
+
+14:4:46.52   >> Begin building H-matrix for zero order.
+14:4:46.52   >> Begin building H-matrix for first left order.
+14:4:47.52   >> Begin building H-matrix for first right order.
+14:4:48.426  >> Begin building H-matrix for first top order.
+14:4:50.56   >> Begin building H-matrix for first bottom order.
+14:4:52.756  >> H-matrix construction completed.
+
+14:4:52.787  >> Start iteration number 1/50 of EM process.
+Error in this iteration: 0.989507
+
+14:4:52.818  >> Start iteration number 2/50 of EM process.
+Error in this iteration: 0.108428
+
+14:4:52.85   >> Start iteration number 3/50 of EM process.
+Error in this iteration: 0.0644175
+
+14:4:52.865  >> Start iteration number 4/50 of EM process.
+Error in this iteration: 0.0515944
+
+14:4:52.897  >> Start iteration number 5/50 of EM process.
+Error in this iteration: 0.0382248
+
+14:4:52.928  >> Start iteration number 6/50 of EM process.
+Error in this iteration: 0.0313118
+
+14:4:52.943  >> Start iteration number 7/50 of EM process.
+Error in this iteration: 0.0276614
+
+14:4:52.975  >> Start iteration number 8/50 of EM process.
+Error in this iteration: 0.0236993
+
+14:4:53.006  >> Start iteration number 9/50 of EM process.
+Error in this iteration: 0.0199973
+
+14:4:53.022  >> EM complete.
+
+
+{Undefined function or variable 'wavelength2rgb'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DataCube2RGB', 'C:\Users\Dennis Høj\Desktop\Simulering\DataCube2RGB.m', 20)" style="font-weight:bold">DataCube2RGB</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\DataCube2RGB.m',20,0)">line 20</a>)
+            rgb = wavelength2rgb(wavelength)*255*Cube(i,j,k);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Simulator_V4', 'C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m', 157)" style="font-weight:bold">CTIS_Simulator_V4</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Desktop\Simulering\CTIS_Simulator_V4.m',157,0)">line 157</a>)
+plotCube = DataCube2RGB(EstCube);
+} 
+plotCube = DataCube2RGB(EstCube);
+
+% Plot diffraktionsmønster
+figure
+imshow(Image)
+[Warning: Image is too big to fit on screen; displaying at 33%] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('images.internal.initSize', 'C:\Program Files\MATLAB\R2015a\toolbox\matlab\images\+images\+internal\initSize.m', 71)" style="font-weight:bold">images.internal.initSize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2015a\toolbox\matlab\images\+images\+internal\initSize.m',71,0)">line 71</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imshow', 'C:\Program Files\MATLAB\R2015a\toolbox\matlab\images\imshow.m', 305)" style="font-weight:bold">imshow</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2015a\toolbox\matlab\images\imshow.m',305,0)">line 305</a>)] 
+title(sprintf('Diffracted picture, %g x %g pixels',N_cam,N_cam))
+set(gca,'FontSize',18); % Forstørre textstørrelse
+
+% Plot billede
+figure
+image(plotCube)
+title(sprintf('Estimated picture, %g x %g pixels.',N_0,N_0))
+set(gca,'FontSize',18); % Forstørre textstørrelse
+
+% Plot original kube
+figure
+VisualizeCube(Cube,lambda_l,lambda_u)
+set(gca,'FontSize',18); % Forstørre textstørrelse
+
+% Exporter billede
+% Export2Gerbil( EstCube,lambda_l,lambda_u )
+
+diary off

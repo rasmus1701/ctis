@@ -1,0 +1,96 @@
+[Warning: The value of local variables may have been changed to match the globals.  Future versions of
+MATLAB will require that you declare a variable to be global before you use that variable.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Processor_V3', 'C:\Users\Dennis Høj\Dropbox\Bachelor projekt\Rapport\CD\MATLAB-kode\Databehandling\CTIS_Processor_V3.m', 9)" style="font-weight:bold">CTIS_Processor_V3</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Dropbox\Bachelor projekt\Rapport\CD\MATLAB-kode\Databehandling\CTIS_Processor_V3.m',9,0)">line 9</a>)] 
+[Warning: The value of local variables may have been changed to match the globals.  Future versions of
+MATLAB will require that you declare a variable to be global before you use that variable.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Processor_V3', 'C:\Users\Dennis Høj\Dropbox\Bachelor projekt\Rapport\CD\MATLAB-kode\Databehandling\CTIS_Processor_V3.m', 9)" style="font-weight:bold">CTIS_Processor_V3</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Dropbox\Bachelor projekt\Rapport\CD\MATLAB-kode\Databehandling\CTIS_Processor_V3.m',9,0)">line 9</a>)] 
+[Warning: The value of local variables may have been changed to match the globals.  Future versions of
+MATLAB will require that you declare a variable to be global before you use that variable.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CTIS_Processor_V3', 'C:\Users\Dennis Høj\Dropbox\Bachelor projekt\Rapport\CD\MATLAB-kode\Databehandling\CTIS_Processor_V3.m', 9)" style="font-weight:bold">CTIS_Processor_V3</a> (<a href="matlab: opentoline('C:\Users\Dennis Høj\Dropbox\Bachelor projekt\Rapport\CD\MATLAB-kode\Databehandling\CTIS_Processor_V3.m',9,0)">line 9</a>)] 
+
+16:55:33.504 >> Begin serialize zero order.
+16:55:33.504 >> Length of zero order g-vector: 5476
+16:55:33.817 >> Begin serialize first order.
+16:55:33.817 >> Left order.
+16:55:33.817 >> Length of left g-vector: 31968
+16:55:34.035 >> Right order.
+16:55:34.035 >> Length of right g-vector: 31154
+16:55:34.254 >> Top order.
+16:55:34.254 >> Length of top g-vector: 30858
+16:55:34.473 >> Bottom order.
+16:55:34.473 >> Length of bottom g-vector: 32042
+16:55:34.723 >> Adjust image energies.
+16:55:34.723 >> Serialization complete.
+
+16:55:35.145 >> Begin building H-matrix for zero order.
+16:55:35.16  >> Size of zero order H-matrix: 5476 x 1.0952e+06
+16:55:35.16  >> Begin building H-matrix for first left order.
+16:55:46.442 >> Size of left H-matrix: 31968 x 1.0952e+06
+16:55:46.442 >> Begin building H-matrix for first right order.
+16:55:59.606 >> Size of right H-matrix: 31154 x 1.0952e+06
+16:55:59.606 >> Begin building H-matrix for first top order.
+16:56:22.287 >> Size of top H-matrix: 30858 x 1.0952e+06
+16:56:22.287 >> Begin building H-matrix for first bottom order.
+16:56:44.459 >> Size of bottom H-matrix: 32042 x 1.0952e+06
+16:56:44.709 >> H-matrix construction completed.
+
+16:56:44.787 >> Start iteration number 1/50 of EM process.
+Error in this iteration: 0.99623
+
+16:56:44.881 >> Start iteration number 2/50 of EM process.
+Error in this iteration: 0.35939
+
+16:56:44.974 >> Start iteration number 3/50 of EM process.
+Error in this iteration: 0.146236
+
+16:56:45.052 >> Start iteration number 4/50 of EM process.
+Error in this iteration: 0.0808726
+
+16:56:45.131 >> Start iteration number 5/50 of EM process.
+Error in this iteration: 0.0613188
+
+16:56:45.209 >> Start iteration number 6/50 of EM process.
+Error in this iteration: 0.0507125
+
+16:56:45.302 >> Start iteration number 7/50 of EM process.
+Error in this iteration: 0.0449007
+
+16:56:45.396 >> Start iteration number 8/50 of EM process.
+Error in this iteration: 0.0408802
+
+16:56:45.474 >> Start iteration number 9/50 of EM process.
+Error in this iteration: 0.0376132
+
+16:56:45.568 >> Start iteration number 10/50 of EM process.
+Error in this iteration: 0.034806
+
+16:56:45.646 >> Start iteration number 11/50 of EM process.
+Error in this iteration: 0.0323411
+
+16:56:45.74  >> Start iteration number 12/50 of EM process.
+Error in this iteration: 0.0301508
+
+16:56:45.818 >> Start iteration number 13/50 of EM process.
+Error in this iteration: 0.0281906
+
+16:56:45.912 >> Start iteration number 14/50 of EM process.
+Error in this iteration: 0.0264276
+
+16:56:45.99  >> Start iteration number 15/50 of EM process.
+Error in this iteration: 0.0248357
+
+16:56:46.099 >> Start iteration number 16/50 of EM process.
+Error in this iteration: 0.0233933
+
+16:56:46.193 >> Start iteration number 17/50 of EM process.
+Error in this iteration: 0.0220821
+
+16:56:46.271 >> Start iteration number 18/50 of EM process.
+Error in this iteration: 0.0209107
+
+16:56:46.349 >> Start iteration number 19/50 of EM process.
+Error in this iteration: 0.0198615
+
+16:56:46.443 >> EM complete.
+
+
