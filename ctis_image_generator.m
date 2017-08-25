@@ -1,63 +1,48 @@
+% generate synthetic ctis image
+% d: datacube dimension
+% lambda: number of spectral layers
 
-D=3;         #Data cube dimension 
-Lambda=5;      #Number of spectral lines
-bit=256;		#maximum value of voxel in datacube.
+function [f, g_out] = ctis_image_generator(d, lambda)
+    bit = 256;            %maximum value of voxel in datacube.
+    dist = 0;             %round(d/2); distance between 0th and 1st order
+    Z = d*3 + lambda*2;     %FPA dimension
+    midt = floor((Z)/2);
+    background = zeros(Z, Z);
+    image = background;
 
-dist=0; #round(D/2);         #Distance between 0th and 1st order
-Z=D*3+Lambda*2;    #FPA dimension
-#Z=5*D; #-2
-midt=floor((Z)/2);
-
-background=zeros(Z,Z);
-image=background;
-m=floor(bit*rand(D,D,Lambda));      #generates random Object cube
-
-mSum=zeros(D,D);
-for i=1:Lambda
-    mSum=mSum+m(:,:,i);
-end
-
-for i=1:D
-    for j=1:D
-        image(midt-(D-1)/2+i,midt-(D-1)/2+j)=mSum(i,j);       #0th order
+    % generate random object cube
+    m = floor(bit * rand(d, d, lambda));
+    mSum = zeros(d, d);
+    for i = 1:lambda
+        mSum = mSum + m(:,:,i);
     end
-end
 
-image=image*D/Lambda;
-
-for h=1:Lambda
-    for i=1:D
-        for j=1:D
-            image(midt-(D-1)/2+i+(D+dist+h),midt-(D-1)/2+j)=image(midt-(D-1)/2+i+D+dist+h,midt-(D-1)/2+j)+m(i,j,h);    #Bottom
-            image(midt-(D-1)/2+i,midt-(D-1)/2+j+(D+dist+h))=image(midt-(D-1)/2+i,midt-(D-1)/2+j+D+dist+h)+m(i,j,h);    #Right
-            image(midt-(D-1)/2+i-(D+dist+h),midt-(D-1)/2+j)=image(midt-(D-1)/2+i-D-dist-h,midt-(D-1)/2+j)+m(i,j,h);    #Top
-            image(midt-(D-1)/2+i,midt-(D-1)/2+j-(D+dist+h))=image(midt-(D-1)/2+i,midt-(D-1)/2+j-D-dist-h)+m(i,j,h);    #Left
-            image(midt-(D-1)/2+i+(D+dist+h),midt-(D-1)/2+j+(D+dist+h))=image(midt-(D-1)/2+i+(D+dist+h),midt-(D-1)/2+j+(D+dist+h))+m(i,j,h);  #Bottom-Right
-            image(midt-(D-1)/2+i+(D+dist+h),midt-(D-1)/2+j-(D+dist+h))=image(midt-(D-1)/2+i+(D+dist+h),midt-(D-1)/2+j-(D+dist+h))+m(i,j,h);  #Bottom-Left
-            image(midt-(D-1)/2+i-(D+dist+h),midt-(D-1)/2+j+(D+dist+h))=image(midt-(D-1)/2+i-(D+dist+h),midt-(D-1)/2+j+(D+dist+h))+m(i,j,h);  #Top-Right
-            image(midt-(D-1)/2+i-(D+dist+h),midt-(D-1)/2+j-(D+dist+h))=image(midt-(D-1)/2+i-(D+dist+h),midt-(D-1)/2+j-(D+dist+h))+m(i,j,h);  #Top-Left
+    % populate 0th order of ctis image
+    for i = 1:d
+        for j = 1:d
+            image(midt-(d-1)/2+i, midt-(d-1)/2+j) = mSum(i, j);
         end
     end
-#    clc
-    status=h*100/Lambda;
-    #disp(status,"Status percent");
-end
 
-a=max(image);
-#scale=256/a;
+    % populate 1st order of ctis image (8 diffractions)
+    image = image * d / lambda;
+    for h = 1:lambda
+        for i = 1:d
+            for j = 1:d
+                image(midt-(d-1)/2+i+(d+dist+h), midt-(d-1)/2+j) = image(midt-(d-1)/2+i+d+dist+h, midt-(d-1)/2+j) + m(i,j,h);    %Bottom
+                image(midt-(d-1)/2+i, midt-(d-1)/2+j+(d+dist+h)) = image(midt-(d-1)/2+i, midt-(d-1)/2+j+d+dist+h) + m(i,j,h);    %Right
+                image(midt-(d-1)/2+i-(d+dist+h), midt-(d-1)/2+j) = image(midt-(d-1)/2+i-d-dist-h, midt-(d-1)/2+j) + m(i,j,h);    %Top
+                image(midt-(d-1)/2+i, midt-(d-1)/2+j-(d+dist+h)) = image(midt-(d-1)/2+i, midt-(d-1)/2+j-d-dist-h) + m(i,j,h);    %Left
+                image(midt-(d-1)/2+i+(d+dist+h), midt-(d-1)/2+j+(d+dist+h)) = image(midt-(d-1)/2+i+(d+dist+h), midt-(d-1)/2+j+(d+dist+h))+m(i,j,h);  %Bottom-Right
+                image(midt-(d-1)/2+i+(d+dist+h), midt-(d-1)/2+j-(d+dist+h)) = image(midt-(d-1)/2+i+(d+dist+h), midt-(d-1)/2+j-(d+dist+h))+m(i,j,h);  %Bottom-Left
+                image(midt-(d-1)/2+i-(d+dist+h), midt-(d-1)/2+j+(d+dist+h)) = image(midt-(d-1)/2+i-(d+dist+h), midt-(d-1)/2+j+(d+dist+h))+m(i,j,h);  %Top-Right
+                image(midt-(d-1)/2+i-(d+dist+h), midt-(d-1)/2+j-(d+dist+h)) = image(midt-(d-1)/2+i-(d+dist+h), midt-(d-1)/2+j-(d+dist+h))+m(i,j,h);  %Top-Left
+            end
+        end
+    end
 
-#xset("colormap",graycolormap(256))
-#xname("image1 wavelength all")
-#Matplot(image*scale,strf="021")
-
-#disp("Simulation ended after")
-#TimeEnd=toc()
-#disp("seconds",TimeEnd)
-
-#output = reshape(m,D,D*D);
-
-f = m;
-#g = reshape(image,9*D*D+6*Lambda*D+4*Lambda*Lambda,1);
-S=size(image,1);
-
-g = reshape(image,S*S,1);
+    % reshape and return
+    S = size(image, 1);
+    f = m;
+    g_out = reshape(image, S*S, 1);
+endfunction
