@@ -76,7 +76,7 @@ def mert(g, h, d, l, iterations=100):
     h_sum = sum(h, 0)
 
     np.seterr(divide='ignore', invalid='ignore')
-    f_next = np.zeros((d**3, 1), dtype=np.int)
+    f_next = np.zeros((d**2 * l, 1), dtype=np.int)
 
     for i in xrange(iterations):
         g_iter = np.matmul(h, f_iter)
@@ -86,9 +86,9 @@ def mert(g, h, d, l, iterations=100):
             f_next[j] = np.multiply(np.transpose((np.true_divide(np.transpose(f_iter[j]), h_sum[j]))),
                                         sum(np.dot(h[:,j], g_div)))
         f_iter = f_next
-    f_iter = np.reshape(f_next,[dim,dim,l])
+    f_iter = np.reshape(f_next, [dim, dim, l])
     f_iter = np.transpose(f_iter)
-    f_out = np.zeros((d,d,l), dtype=np.int)
+    f_out = np.zeros((l, d, d), dtype=np.int)
     for k in xrange(l):
         f_out[k,:] = np.transpose(f_iter[k,:])
     return f_out
