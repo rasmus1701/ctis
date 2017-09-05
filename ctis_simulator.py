@@ -79,11 +79,12 @@ def mert(g, h, d, l, iterations=100):
     f_next = np.zeros((d**2 * l, 1), dtype=np.int)
 
     for i in xrange(iterations):
+        print "iteration %d of %d\n" % (i, iterations)
         g_iter = np.matmul(h, f_iter)
         g_div = np.nan_to_num(np.true_divide(g, g_iter))
 
         for j in xrange(len(f_iter)):
-            f_next[j] = np.multiply(np.transpose((np.true_divide(np.transpose(f_iter[j]), h_sum[j]))),
+            f_next[j] = np.multiply((np.true_divide(f_iter[j], h_sum[j])),
                                         sum(np.dot(h[:,j], g_div)))
         f_iter = f_next
     f_iter = np.reshape(f_next, [dim, dim, l])
@@ -119,3 +120,4 @@ if __name__ == "__main__":
     f = mert(g, h, dim, l, iterations)
     print "\nf_obj: \n", f_obj
     print "\nf_calc: \n", f
+    print np.mean(abs(f_obj-f))
