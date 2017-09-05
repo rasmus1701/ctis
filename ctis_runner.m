@@ -13,6 +13,11 @@ end
 printf("Computing CTIS image for system of dimension %d and %d spectral layers, using %d iterations\n", dim, lambda, iterations);
 
 H = h_generator(dim, lambda);
+
 [f, g] = ctis_image_generator(dim, lambda);
 f_calc = exp_max(H, g, iterations, dim, lambda);
+printf("f");
+f
+printf("f_calc");
+f_calc
 err = abs(f-f_calc)
