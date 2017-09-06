@@ -1,15 +1,28 @@
 import sys
+import getopt
 import numpy as np
+from scipy.misc import imread,imsave
 np.set_printoptions(threshold=np.nan)
+import matplotlib.pyplot as plt
+import cv2
 
-def ctis_sim(d, l):
+USE_RGB_IMAGE = False
+
+def ctis_sim(d, l, image):
     g_dim = (3*d + 2*l)
 
     # generate empty H-matrix
     h = np.zeros((g_dim**2, d**2 * l), dtype=np.int)
 
     # generate random object cube from which we build synthetic ctis image, g
-    f_obj = np.random.randint(256, size=(l, d, d))
+    #f_obj = np.random.randint(256, size=(l, d, d))
+    f_obj = np.random.randint(118, high=138, size=(l, d, d))
+    if USE_RGB_IMAGE:
+        # when running in image mode, put R,G,B channels in first layers of f
+        image = np.moveaxis(image, 2, 0)
+        f_obj[0] = image[0]
+        f_obj[1] = image[1]
+        f_obj[2] = image[2]
 
     # create empty ctis image (ctis sensor image, g)
     g = np.zeros((g_dim, g_dim), dtype=np.int)
@@ -65,7 +78,7 @@ def ctis_sim(d, l):
                 # use diff_image as column in h
                 h[:, h_iter] = diff_image.reshape(g_dim * g_dim)
                 h_iter += 1
-        # print i # show progress...
+        print i # show progress...
     return f_obj, g, h
 
 def mert(g, h, d, l, iterations=100):
@@ -79,7 +92,7 @@ def mert(g, h, d, l, iterations=100):
     f_next = np.zeros((d**2 * l, 1), dtype=np.int)
 
     for i in xrange(iterations):
-        print "iteration %d of %d\n" % (i, iterations)
+        print "iteration %d of %d" % (i, iterations)
         g_iter = np.matmul(h, f_iter)
         g_div = np.nan_to_num(np.true_divide(g, g_iter))
 
@@ -96,28 +109,86 @@ def mert(g, h, d, l, iterations=100):
 
 
 if __name__ == "__main__":
-    usage = "Usage: python %s <dim> <lambda> <iterations>" % str(sys.argv[0])
+    usage = "Usage: python %s -d <dim> -l <lambda> -l <iterations> " \
+      "-f <input_image>" % str(sys.argv[0])
+
+    # default simulation parameters
     dim = 3
     l = 3
     iterations = 10
-    if len(sys.argv) != 1:
-        try:
-            dim = int(sys.argv[1])
-            l = int(sys.argv[2])
-            iterations = int(sys.argv[3])
-            print "Computing CTIS simulation with dimension %d, lambda %d, " \
-              "and reconstruction iterations %d\n " % (dim, l, iterations)
-        except Exception as e:
-            print "Error: %s" % e
-            print usage
-            sys.exit(-1)
-    else:
-        print usage
-        print "Computing CTIS simulation with default dimension, lambda, " \
-          "and iterations: ", dim, l, iterations
-    f_obj, g,h = ctis_sim(dim, l)
+    input_image = ''
+    image = np.array([])
 
-    f = mert(g, h, dim, l, iterations)
-    print "\nf_obj: \n", f_obj
-    print "\nf_calc: \n", f
-    print np.mean(abs(f_obj-f))
+    # parse command line options
+    options, remainder = getopt.getopt(sys.argv[1:], 'd:l:i:f:')
+    try:
+        for opt, arg in options:
+            if opt == '-d':
+                dim = int(arg)
+            if opt == '-l':
+                l = int(arg)
+            if opt == '-i':
+                iterations= int(arg)
+            if opt == '-f':
+                input_image = arg
+                image = cv2.imread(arg)
+                if image is None:
+                    raise IOError("No such file %s" % input_image)
+                USE_RGB_IMAGE = True
+    except Exception as e:
+        print "Error: %s" % e
+        print usage
+        sys.exit(-1)
+
+
+    if USE_RGB_IMAGE:
+        # resize image to given dimension
+        image = cv2.resize(image, (dim, dim))
+
+        # force using only 3 spectral layers in file mode
+        if  l != 3:
+            print "Warning: When running in file mode, we'll use only 3 spectral " \
+            "layers, not %d as requested" % l
+            l = 3
+
+    string = "Computing CTIS simulation with dimension %d, lambda %d, " \
+      "and reconstruction iterations %d" % (dim, l, iterations)
+    if input_image != '':
+        string += " on input image %s" % input_image
+    print string + "\n"
+
+    # start simulation; compute random f_obj, g, and h
+    f_obj, g,h = ctis_sim(dim, l, image)
+
+    # perform reconstruction using MERT algorithm
+    f_calc = mert(g, h, dim, l, iterations)
+
+    print "Average error: ", np.mean(abs(f_obj-f_calc))
+
+    if USE_RGB_IMAGE:
+        f_obj = np.moveaxis(f_obj, 0, 2)
+        #f_obj = np.clip(f_obj, 0, 255)
+        f_calc = np.moveaxis(f_calc, 0, 2)
+        f_calc = np.clip(f_calc, 0, 255)
+        try:
+            output_file = '%s_reconstructed.jpg' % input_image.split('.')[0]
+        except Exception as e:
+            output_file = "reconstructed.jpg"
+        print "Writing to output file %s\n" % output_file
+        cv2.imwrite(output_file, f_calc)
+
+
+        #cv2.waitKey(0)
+#        plot_image = np.concatenate((f_obj, f_calc), axis=1)
+
+
+
+        #print f_calc
+        #print f_calc.shape
+#    for i in xrange(3):
+        #plt.imshow(f[i])
+        #plt.show()
+  #      print "layer: ", i
+   #     print f[i]
+    #    cv2.imwrite('layer_%d.jpg' % i, f[i])
+        #imsave('layer_%d.jpg' % i, f[i])
