@@ -15,6 +15,7 @@ for eq in equations:
 solutions = sympy.linsolve(equations, diff_vars)
 
 print "Solutions: "
+
 for solution in solutions:
     for index,member in enumerate(solution):
         print diff_vars[index], " = ", member
