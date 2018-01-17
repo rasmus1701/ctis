@@ -78,7 +78,7 @@ def ctis_sim(d, l, image):
                 # use diff_image as column in h
                 h[:, h_iter] = diff_image.reshape(g_dim * g_dim)
                 h_iter += 1
-        print i # show progress...
+        print "Populating g and H, iteration %d of %d..." % (i,d) # show progress...
     return f_obj, g, h
 
 def mert(g, h, d, l, iterations=100):
@@ -92,7 +92,7 @@ def mert(g, h, d, l, iterations=100):
     f_next = np.zeros((d**2 * l, 1), dtype=np.int)
 
     for i in xrange(iterations):
-        print "iteration %d of %d" % (i, iterations)
+        print "MERT iteration %d of %d" % (i, iterations)
         g_iter = np.matmul(h, f_iter)
         g_div = np.nan_to_num(np.true_divide(g, g_iter))
 
@@ -109,7 +109,7 @@ def mert(g, h, d, l, iterations=100):
 
 
 if __name__ == "__main__":
-    usage = "Usage: python %s -d <dim> -l <lambda> -l <iterations> " \
+    usage = "Usage: python %s -d <dim> -l <lambda> -i <iterations> " \
       "-f <input_image>" % str(sys.argv[0])
 
     # default simulation parameters
@@ -144,6 +144,7 @@ if __name__ == "__main__":
     if USE_RGB_IMAGE:
         # resize image to given dimension
         image = cv2.resize(image, (dim, dim))
+        cv2.imwrite("%s_resized.ppm" % input_image.split('.')[0], image)
 
         # force using only 3 spectral layers in file mode
         if  l != 3:
